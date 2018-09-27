@@ -7,6 +7,8 @@
   </head>
 
   <body>
-<H1>Coming SOON</H1>
+
+    <h1>Globe Bank: Coming Soon</h1>
+
   </body>
 </html>
