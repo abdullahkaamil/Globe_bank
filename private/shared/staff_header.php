@@ -12,7 +12,7 @@ if (!isset($page_title)){
   <head>
 
     <title>GBI - <?Php  echo $page_title;  ?></title>
-    <link rel="stylesheet" media="all" href="../stylesheets/staff.css">
+    <link rel="stylesheet" media="all" href="<?php echo url_for('/stylesheets/staff.css');?>">
     <meta charset="utf-8">
   </head>
 
@@ -22,5 +22,5 @@ if (!isset($page_title)){
 </header>
 <nav>
 <ul>
-<li><a href="index.php">Menu</a></li></ul>
+<li><a href="<?php echo url_for('/staff/index.php');?>" >Menu</a></li></ul>
 </nav>
